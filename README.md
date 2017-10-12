@@ -34,4 +34,4 @@ Disk stats (read/write):
   vda: ios=786347/262229, merge=0/0, ticks=48274/17066, in_queue=70629, util=98.76%
   ```
   ## Issues:
-  OSD will crash if you enable jemalloc
+  OSD will crash if you enable jemalloc. Bug tracker at http://tracker.ceph.com/issues/20557
