@@ -33,3 +33,5 @@ Disk stats (read/write):
     dm-2: ios=779110/259856, merge=0/0, ticks=48517/17133, in_queue=71085, util=98.79%, aggrios=786347/262229, aggrmerge=0/0, aggrticks=48274/17066, aggrin_queue=70629, aggrutil=98.76%
   vda: ios=786347/262229, merge=0/0, ticks=48274/17066, in_queue=70629, util=98.76%
   ```
+  ## Issues:
+  OSD will crash if you enable jemalloc
